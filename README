@@ -1,4 +1,4 @@
-# colorGen
+#Color Gen
 Choose between three color value types: RGB, Hex, HSL to receive a random palette made with those values.
 Lock ones you like in place.
 Input custom color values to find other colors that go with it.
