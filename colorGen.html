@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+
+
+            <meta charset="utf-8">
+
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+            <meta name="description" content="Random Color Palette Generator"> 
+
+            <meta name="viewport" content="width=device-width; initial-scale=1.0, maximum-scale=1.0">
+
+            <title>colorGen</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+
+
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/appCSS/colorGenCSS/colorGen.css">
+</head>
+
+
+<body>
+     
+    <div id="page-container" class="container">
+
+          
+          <div id="paletteBox">
+
+            <div class="supportBeams"></div>
+
+            <div class="controls">
+
+                <h6 class="palettePrintOut"></h6>
+                  <input type="text" class="customColorInput" name="custom" placeholder="Custom Color">
+                    <div class="lock">
+                      <button class="lockColor" id="lock_1">Lock</button>
+                    </div>
+              <h6 class="palettePrintOut"></h6>
+                  <input type="text" class="customColorInput" name="custom" placeholder="Custom Color">
+                    <div class="lock">
+                      <button class="lockColor" id="lock_2">Lock</button>
+                    </div>
+              <h6 class="palettePrintOut"></h6>
+                  <input type="text" class="customColorInput" name="custom" placeholder="Custom Color">
+                    <div class="lock">
+                      <button class="lockColor" id="lock_3">Lock</button>
+                    </div>
+              <h6 class="palettePrintOut"></h6>
+                  <input type="text" class="customColorInput" name="custom" placeholder="Custom Color">
+                    <div class="lock">
+                      <button class="lockColor" id="lock_4">Lock</button>
+                    </div>
+              <h6 class="palettePrintOut"></h6>
+                  <input type="text" class="customColorInput" name="custom" placeholder="Custom Color">
+                    <div class="lock">
+                      <button class="lockColor" id="lock_5">Lock</button>
+                    </div>
+
+              </div>
+
+
+            <div class="supportBeams"></div>
+
+
+              <div class='colorPalette'>
+              </div>
+
+              <div class='colorPalette'>
+              </div>
+
+              <div class='colorPalette'>
+              </div>
+
+              <div class='colorPalette'>
+              </div>
+
+              <div class='colorPalette'>
+              </div> 
+          
+          </div>
+
+
+        
+      
+      <div id="controlPanel">
+
+      <p id="promptUser">Select a color type</p>
+        
+              <fieldset id="colorSelect">
+
+
+
+                  <input type="radio" name="colorType" id="rgbRadio"><label id="labelRGB" for="rgbRadio">RGB</label>
+
+                  <input type="radio" name="colorType" id="hslRadio"><label id="labelHSL" for="hslRadio">HSL</label>
+                  
+                  <input type="radio" name="colorType" id="hexRadio"><label id="labelHex" for="hexRadio">Hex</label>
+
+                    
+                  
+                  
+
+              </fieldset>
+
+                    <button id="back" class="button scrub">&#171;</button>
+
+                    <button id="forward" class="button scrub">&#187;</button>  
+
+                    
+              <div id="backForward" class="row">
+
+
+
+
+              </div>
+       
+        
+      </div> <!--controlPanel closing div-->
+
+    </div><!--page-container closing div-->
+
+                              <p class="tag"><a href="http://jeremydonahue.com">JeremyDonahue.com</a></p>
+
+
+  <script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script src="js/appJS/colorGenJS/colorGen.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
